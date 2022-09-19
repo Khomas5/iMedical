@@ -57,10 +57,28 @@ body {
   align-items: center;
   margin-top: 2rem;
   gap: 2.5rem;
+
+
 }
 .header {
   position: relative;
+  transition: .5s;  
+  padding-bottom: 2rem;
+  padding-top:0.5rem;
+
+
 }
+
+
+.sticky{
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+z-index: 4;
+
+}
+
 
 .main-nav {
   display: flex;
